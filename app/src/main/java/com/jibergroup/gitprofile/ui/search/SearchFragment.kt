@@ -1,7 +1,6 @@
 package com.jibergroup.gitprofile.ui.search
 
 import android.os.Bundle
-import android.util.Log
 import android.view.Menu
 import android.view.MenuInflater
 import android.widget.ImageView
@@ -24,7 +23,7 @@ class SearchFragment : Fragment(R.layout.fragment_search){
         //auto search for debug
         mViewModel.onSearch("mukhit")
         mViewModel.usersLiveData.observe(viewLifecycleOwner, Observer {
-            Log.d("myTag", "ads  "+it.size)
+
         })
 
     }
