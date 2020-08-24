@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_unknown">Неизвестная ошибка. Повторите попытку через некоторое время</string>
+    <string name="error_required_field">Этот поле не можеть быть пустым</string>
+    <string name="error_data_parse">Сервер отвечает в другом формате, сообщите эту ошибку!</string>
+    <string name="error_empty_body">Сервер возвращает пустой ответ, сообщите эту ошибку!</string>
+    <string name="error_empty_body_field">Сервер возвращает null</string>
+    <string name="error_not_pdf_viewer_found">Не удалось найти приложения для открытия PDF</string>
+    <string name="error_no_internet">Нет подключения к Интернету</string>
+    <string name="error_network_timeout">Похоже, сервер слишком долго реагирует, это может быть вызвано либо плохой
+        связностью, либо ошибкой с нашими серверами. Повторите попытку через некоторое время"</string>
+</resources>
