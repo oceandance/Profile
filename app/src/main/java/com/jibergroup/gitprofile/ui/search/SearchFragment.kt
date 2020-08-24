@@ -20,7 +20,7 @@ class SearchFragment : Fragment(R.layout.fragment_search){
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         val actionBar = (activity as AppCompatActivity).supportActionBar
-        //auto search for debug
+        //test3
         mViewModel.onSearch("mukhit")
         mViewModel.usersLiveData.observe(viewLifecycleOwner, Observer {
 
